@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Calculadora</title>  
+</head>
+
+<body>
+<form action="">
+<input type="text" id="Numero1" />
+<input type="text" id="Numero2" />
+<input type="button" value="Sumar" onclick="alert(suma (10,50));" />
+</form>
+
+<script>
+
+var suma=function(Numero1, Numero2){
+var Numero1= parseFloat(document.getElementById("Numero1").value);
+var Numero2= parseFloat(document.getElementById("Numero2").value);
+
+var resultado= Numero1 + Numero2;
+return= resultado;
+}
+
+</script>
+
+</body>
+</html>
